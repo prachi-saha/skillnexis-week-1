@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My Personal Portfolio</h2>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Myself</a></li>
+                <li><a href="#skills">Skills 🚀</a></li>
+                <li><a href="#contact">Contact Me 📞</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Hello, I'm Prachi S!</h1>
+        <h3>A Web Development Enthusiast👩‍💻</h3>
+        <p>Welcome to my personal portfolio website.🥰</p>
+        <a href="#contact" class="btn">Contact Me!</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a final-year computer science student,who's interested in
+            programming, web development and emerging tech.
+            I really enjoy learning new skills along with building projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills🚀</h2>
+
+        <div class="skill-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me📞</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Enter your name please">
+            <input type="email" id="email" placeholder="Enter your email please">
+            <textarea id="message" placeholder="Hey!Let's catch up over web dev and tech bites!"></textarea>
+
+            <button type="submit">Submit</button>
+            <p id="errorMessage"></p>
+            <p id="successMessage"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Personal Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
